@@ -1,0 +1,12 @@
+<button (click)="navigateToComponent2()">Go to Component 2</button>
+<bryntum-scheduler
+    #scheduler
+    [resources] = "resources"
+    [events] = "events"
+    [startDate] = "schedulerConfig.startDate!"
+    [endDate] = "schedulerConfig.endDate!"
+    [columns]="columnsConfig"
+    [stripeFeature]="true"  
+    [viewPreset]="viewPresetConfig" 
+    [features]="features"
+></bryntum-scheduler>
